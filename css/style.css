@@ -30,7 +30,7 @@ body {
 }
 
 .earlymorning {
-  background: #2400b3;
+  background: #1f64ff;
   background: -webkit-linear-gradient(45deg, #2400b3 0%, #60f0d8 100%);
   background: linear-gradient(45deg, #2400b3 0%, #60f0d8 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2400b3', endColorstr='#60f0d8', GradientType=1 );

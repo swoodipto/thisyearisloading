@@ -138,10 +138,12 @@ function global() {
       $("html")
         .removeClass()
         .addClass("earlymorning");
+      $('meta[name="theme-color"]').attr("content","#1f64ff");
     } else if (hr >= 7 && hr < 11) {
       $("html")
         .removeClass()
         .addClass("morning");
+        $('meta[name="theme-color"]').attr("content","#12D8FA");
     } else if (hr >= 11 && hr < 16) {
       $("html")
         .removeClass()
@@ -151,14 +153,17 @@ function global() {
       $("html")
         .removeClass()
         .addClass("goldenhour");
+      $('meta[name="theme-color"]').attr("content","#f1c0a5");
     } else if (hr >= 18 && hr < 19) {
       $("html")
         .removeClass()
         .addClass("evening");
+      $('meta[name="theme-color"]').attr("content","#AD37C3");
     } else if (hr >= 19 && hr <= 23) {
       $("html")
         .removeClass()
         .addClass("night");
+      $('meta[name="theme-color"]').attr("content","#004e92");
     }
   }
   
