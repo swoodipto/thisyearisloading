@@ -46,7 +46,7 @@ body {
 }
 
 .afternoon {
-  background: #3740e6;
+  background: #FFC107;
   background: -webkit-linear-gradient(45deg, #8a1958 0%, #FFC107 100%);
   background: linear-gradient(45deg, #8a1958 0%, #FFC107 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1958', endColorstr='#FFC107', GradientType=1 );
@@ -54,7 +54,7 @@ body {
 }
 
 .goldenhour {
-  background: #3740e6;
+  background: #f1c0a5;
   background: -webkit-linear-gradient(45deg, #3740e6 0%, #f1c0a5 100%);
   background: linear-gradient(45deg, #3740e6 0%, #f1c0a5 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3740e6', endColorstr='#f1c0a5', GradientType=1 );
@@ -62,7 +62,7 @@ body {
 }
 
 .evening {
-  background: #C33764;
+  background: #AD37C3;
   background: -webkit-linear-gradient(45deg, #1D2671 0%, #AD37C3 100%);
   background: linear-gradient(45deg, #1D2671 0%, #AD37C3 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1D2671', endColorstr='#AD37C3', GradientType=1 );
@@ -70,7 +70,7 @@ body {
 }
 
 .night {
-  background: #000428;
+  background: #004e92;
   background: -moz-linear-gradient(45deg, #000428 0%, #004e92 100%);
   background: -webkit-gradient(left bottom, right top, color-stop(0%, #000428), color-stop(100%, #004e92));
   background: -webkit-linear-gradient(45deg, #000428 0%, #004e92 100%);
