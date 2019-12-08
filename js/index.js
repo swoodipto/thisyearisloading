@@ -165,8 +165,6 @@ function global() {
 
   $(window).resize(resize_respond);
   
-  var scene = document.getElementById("daytime_scene");
-  var parallax = new Parallax(scene);
 }
 /*GLOBALS*/
 
