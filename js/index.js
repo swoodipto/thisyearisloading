@@ -94,6 +94,8 @@ function global() {
   $(".subdetail_weeks").html(week + " / 52");
   $(".subdetail_days").html(day + " / " + totalamtDays);
 
+  document.title = "Loading " + currentYear + "...";
+
   $("head").append(
     $(
       '<style>.loader_percent:after { content: "OF ' +
