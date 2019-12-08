@@ -133,7 +133,7 @@ function global() {
       $("html")
         .removeClass()
         .addClass("night");
-      $(meta[name="theme-color"]).attr("content","#004e92");
+      $('meta[name="theme-color"]').attr("content","#004e92");
     } else if (hr >= 4 && hr < 7) {
       $("html")
         .removeClass()
@@ -146,7 +146,7 @@ function global() {
       $("html")
         .removeClass()
         .addClass("afternoon");
-      $(meta[name="theme-color"]).attr("content","#FFC107");
+      $('meta[name="theme-color"]').attr("content","#FFC107");
     } else if (hr >= 16 && hr < 18) {
       $("html")
         .removeClass()
