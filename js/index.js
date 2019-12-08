@@ -130,31 +130,33 @@ function global() {
     var hr = new Date().getHours();
 
     if (hr >= 0 && hr < 4) {
-      $("body")
+      $("html")
         .removeClass()
         .addClass("night");
+      $(meta[name="theme-color"]).attr("content","#004e92");
     } else if (hr >= 4 && hr < 7) {
-      $("body")
+      $("html")
         .removeClass()
         .addClass("earlymorning");
     } else if (hr >= 7 && hr < 11) {
-      $("body")
+      $("html")
         .removeClass()
         .addClass("morning");
     } else if (hr >= 11 && hr < 16) {
-      $("body")
+      $("html")
         .removeClass()
         .addClass("afternoon");
+      $(meta[name="theme-color"]).attr("content","#FFC107");
     } else if (hr >= 16 && hr < 18) {
-      $("body")
+      $("html")
         .removeClass()
         .addClass("goldenhour");
     } else if (hr >= 18 && hr < 19) {
-      $("body")
+      $("html")
         .removeClass()
         .addClass("evening");
     } else if (hr >= 19 && hr <= 23) {
-      $("body")
+      $("html")
         .removeClass()
         .addClass("night");
     }
